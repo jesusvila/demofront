@@ -9,10 +9,10 @@
 <body>
 
     <?php
-    $version="1.0";
-    echo "<p>Frontend: " . $_SERVER['HTTP_HOST']."</p>";
-    echo "<p>Frontend versión: ".$version."</p>";
-    echo "<p>Backend: " . GetBackHostname()."</p>";
+    $version = "1.0";
+    echo "<p>Frontend: " . $_SERVER['HTTP_HOST'] . "</p>";
+    echo "<p>Frontend versión: " . $version . "</p>";
+    echo "<p>Backend: " . GetBackHostname() . "</p>";
     ?>
 </body>
 
